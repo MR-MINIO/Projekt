@@ -1,11 +1,17 @@
 using CarWorkshop.Entities;
-
+using CarWorkshop.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ApplicationDbContext>();
+ builder.Services.AddDbContext<ApplicationDbContext>();
+
+//builder.Services.AddDbContext<CarWorkshopsDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccout = true).AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();
 

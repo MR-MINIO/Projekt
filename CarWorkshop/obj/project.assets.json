@@ -7768,11 +7768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop\\CarWorkshop.csproj",
+      "projectUniqueName": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop_GIT\\Projekt\\CarWorkshop\\CarWorkshop.csproj",
       "projectName": "CarWorkshop",
-      "projectPath": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop\\CarWorkshop.csproj",
+      "projectPath": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop_GIT\\Projekt\\CarWorkshop\\CarWorkshop.csproj",
       "packagesPath": "C:\\Users\\MINIO\\.nuget\\packages\\",
-      "outputPath": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop\\obj\\",
+      "outputPath": "C:\\!!!_MINIO\\!!_Prv\\SZKOLA\\WSEI\\Zajecia\\ProgramowanieWSrodowiskuASPNET\\CarWorkshop_GIT\\Projekt\\CarWorkshop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
