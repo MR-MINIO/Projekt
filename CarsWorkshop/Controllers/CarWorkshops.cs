@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using CarsWorkshop.Data.Entities;
 using CarsWorkshop.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarsWorkshop.Controllers
 {
@@ -136,6 +137,7 @@ namespace CarsWorkshop.Controllers
         // POST: CarWorkshop/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var carWorkshopEntity = await _context.CarWorkshops.FindAsync(id);
